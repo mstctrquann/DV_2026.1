@@ -1,0 +1,15 @@
+/home/quan/Documents/DV-2026.1/second_counter/second_counter.v {1 {vlog -work work -vopt -stats=none /home/quan/Documents/DV-2026.1/second_counter/second_counter.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module second_counter
+
+Top level modules:
+	second_counter
+
+} {} {}} /home/quan/Documents/DV-2026.1/second_counter/tb_second_counter.v {1 {vlog -work work -vopt -stats=none /home/quan/Documents/DV-2026.1/second_counter/tb_second_counter.v
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+-- Compiling module second_counter_tb
+
+Top level modules:
+	second_counter_tb
+
+} {} {}}

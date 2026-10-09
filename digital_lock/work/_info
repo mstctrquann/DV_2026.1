@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/quan/Documents/DV-2026.1/digital_lock
+vdigital_lock
+Z1 !s110 1791477918
+!i10b 1
+!s100 FSjIZSn4d`YGonaP<lC2b3
+I=A7nM<WJ?5g]Emkl;XUmn0
+R0
+w1791477899
+8design.v
+Fdesign.v
+!i122 0
+L0 1 133
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z4 !s108 1791477918.000000
+!s107 tb.v|design.v|
+Z5 !s90 design.v|tb.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vdigital_lock_tb
+R1
+!i10b 1
+!s100 E`C:B<R?ZihcL9@bI8Aj@2
+ImJP2fETW>d?NN_0lR_J>z0
+R0
+w1791477903
+8tb.v
+Ftb.v
+!i122 0
+L0 3 118
+R2
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 tb.v|design.v|
+R5
+!i113 0
+R6
+R7
