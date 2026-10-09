@@ -1,0 +1,16 @@
+# QuestaSim / ModelSim
+work/
+wk/
+*.wlf
+transcript
+*.vstf
+covhtmlreport/
+
+# Dạng sóng & dump
+*.vcd
+*.fsdb
+
+# Vivado / EDA rác
+*.log
+*.jou
+.Xil/
