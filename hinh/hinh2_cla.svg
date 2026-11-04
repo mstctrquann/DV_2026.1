@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="650" viewBox="0 0 1220 650" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<rect x="0" y="0" width="1220" height="650" fill="#ffffff"/>
+<text x="10" y="22" text-anchor="start" font-size="14" font-weight="bold">(a) Chuỗi nhóm CLA4</text>
+<rect class="blk" x="130" y="110" width="180" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="220.0" y="145.5" text-anchor="middle" font-size="15" font-weight="bold">Nhóm N/4−1</text>
+<text x="220.0" y="164.5" text-anchor="middle" font-size="14">bit N−1 : N−4</text>
+<rect class="blk" x="430" y="110" width="180" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="520.0" y="145.5" text-anchor="middle" font-size="15" font-weight="bold">Nhóm 2</text>
+<text x="520.0" y="164.5" text-anchor="middle" font-size="14">bit 11 : 8</text>
+<rect class="blk" x="690" y="110" width="180" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="780.0" y="145.5" text-anchor="middle" font-size="15" font-weight="bold">Nhóm 1</text>
+<text x="780.0" y="164.5" text-anchor="middle" font-size="14">bit 7 : 4</text>
+<rect class="blk" x="950" y="110" width="180" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="1040.0" y="145.5" text-anchor="middle" font-size="15" font-weight="bold">Nhóm 0</text>
+<text x="1040.0" y="164.5" text-anchor="middle" font-size="14">bit 3 : 0</text>
+<path class="wire" d="M220.0 50 L220.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="220.0" y="40" text-anchor="middle" font-size="14">a, b [N−1:N−4]</text>
+<path class="wire" d="M520.0 50 L520.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="520.0" y="40" text-anchor="middle" font-size="14">a, b [11:8]</text>
+<path class="wire" d="M780.0 50 L780.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="780.0" y="40" text-anchor="middle" font-size="14">a, b [7:4]</text>
+<path class="wire" d="M1040.0 50 L1040.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1040.0" y="40" text-anchor="middle" font-size="14">a, b [3:0]</text>
+<path class="wire" d="M220.0 190 L220.0 240" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="220.0" y="260" text-anchor="middle" font-size="14">sum[N−1:N−4]</text>
+<path class="wire" d="M520.0 190 L520.0 240" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="520.0" y="260" text-anchor="middle" font-size="14">sum[11:8]</text>
+<path class="wire" d="M780.0 190 L780.0 240" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="780.0" y="260" text-anchor="middle" font-size="14">sum[7:4]</text>
+<path class="wire" d="M1040.0 190 L1040.0 240" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1040.0" y="260" text-anchor="middle" font-size="14">sum[3:0]</text>
+<path class="wire" d="M430 150.0 L310 150.0" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#ah)"/>
+<text x="370.0" y="140.0" text-anchor="middle" font-size="14">c_g[3] …</text>
+<path class="wire" d="M690 150.0 L610 150.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="650.0" y="140.0" text-anchor="middle" font-size="14">c_g[2]</text>
+<path class="wire" d="M950 150.0 L870 150.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="910.0" y="140.0" text-anchor="middle" font-size="14">c_g[1]</text>
+<path class="wire" d="M1180 150.0 L1130 150.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1186" y="155.0" text-anchor="start" font-size="14">cin</text>
+<path class="wire" d="M130 150.0 L80 150.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="74" y="155.0" text-anchor="end" font-size="14">cout</text>
+<text x="10" y="322" text-anchor="start" font-size="14" font-weight="bold">(b) Cấu trúc một nhóm CLA4</text>
+<rect class="blk" x="180" y="420" width="220" height="100" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="290.0" y="446.5" text-anchor="middle" font-size="15" font-weight="bold">Sinh g, p</text>
+<text x="290.0" y="465.5" text-anchor="middle" font-size="14">g = a &amp; b</text>
+<text x="290.0" y="484.5" text-anchor="middle" font-size="14">p = a ^ b</text>
+<text x="290.0" y="503.5" text-anchor="middle" font-size="14">4 AND, 4 XOR</text>
+<rect class="blk" x="480" y="420" width="240" height="100" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="600.0" y="456.0" text-anchor="middle" font-size="15" font-weight="bold">Logic nhìn trước</text>
+<text x="600.0" y="475.0" text-anchor="middle" font-size="14">c[1..4] từ g, p, c[0]</text>
+<text x="600.0" y="494.0" text-anchor="middle" font-size="14">2 mức AND–OR</text>
+<rect class="blk" x="840" y="420" width="200" height="100" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="940.0" y="456.0" text-anchor="middle" font-size="15" font-weight="bold">Tổng</text>
+<text x="940.0" y="475.0" text-anchor="middle" font-size="14">s = p ^ c[3:0]</text>
+<text x="940.0" y="494.0" text-anchor="middle" font-size="14">4 XOR</text>
+<path class="wire" d="M40 470 L180 470.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="110" y="458" text-anchor="middle" font-size="14">a[3:0], b[3:0]</text>
+<path class="wire" d="M400 470.0 L480 470.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="440" y="458" text-anchor="middle" font-size="14">g, p</text>
+<text x="440" y="496" text-anchor="middle" font-size="14">/8</text>
+<path class="wire" d="M720 470.0 L840 470.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="795" y="458" text-anchor="middle" font-size="14">c[3:0]</text>
+<circle cx="750" cy="470" r="4" fill="#222"/>
+<path class="wire" d="M750 470 L750 560" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="750" y="580" text-anchor="middle" font-size="14">co = c[4]</text>
+<path class="wire" d="M600 600 L600.0 520" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="600" y="620" text-anchor="middle" font-size="14">ci = c[0]</text>
+<path class="wire" d="M290.0 420 L290 370 L940 370 L940.0 420" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="615" y="360" text-anchor="middle" font-size="14">p[3:0]</text>
+<path class="wire" d="M1040 470.0 L1100 470" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1106" y="475" text-anchor="start" font-size="14">s[3:0]</text>
+</svg>

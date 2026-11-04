@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="310" viewBox="0 0 1150 310" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<rect x="0" y="0" width="1150" height="310" fill="#ffffff"/>
+<rect class="blk" x="130" y="110" width="170" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="215.0" y="150.5" text-anchor="middle" font-size="15" font-weight="bold">FA bit N−1</text>
+<text x="215.0" y="169.5" text-anchor="middle" font-size="14">2 XOR, 3 AND, 1 OR</text>
+<rect class="blk" x="420" y="110" width="170" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="505.0" y="150.5" text-anchor="middle" font-size="15" font-weight="bold">FA bit 2</text>
+<text x="505.0" y="169.5" text-anchor="middle" font-size="14">2 XOR, 3 AND, 1 OR</text>
+<rect class="blk" x="650" y="110" width="170" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="735.0" y="150.5" text-anchor="middle" font-size="15" font-weight="bold">FA bit 1</text>
+<text x="735.0" y="169.5" text-anchor="middle" font-size="14">2 XOR, 3 AND, 1 OR</text>
+<rect class="blk" x="880" y="110" width="170" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="965.0" y="150.5" text-anchor="middle" font-size="15" font-weight="bold">FA bit 0</text>
+<text x="965.0" y="169.5" text-anchor="middle" font-size="14">2 XOR, 3 AND, 1 OR</text>
+<path class="wire" d="M215.0 50 L215.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="215.0" y="40" text-anchor="middle" font-size="14">a[N−1], b[N−1]</text>
+<path class="wire" d="M505.0 50 L505.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="505.0" y="40" text-anchor="middle" font-size="14">a[2], b[2]</text>
+<path class="wire" d="M735.0 50 L735.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="735.0" y="40" text-anchor="middle" font-size="14">a[1], b[1]</text>
+<path class="wire" d="M965.0 50 L965.0 110" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="965.0" y="40" text-anchor="middle" font-size="14">a[0], b[0]</text>
+<path class="wire" d="M215.0 200 L215.0 250" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="215.0" y="270" text-anchor="middle" font-size="14">sum[N−1]</text>
+<path class="wire" d="M505.0 200 L505.0 250" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="505.0" y="270" text-anchor="middle" font-size="14">sum[2]</text>
+<path class="wire" d="M735.0 200 L735.0 250" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="735.0" y="270" text-anchor="middle" font-size="14">sum[1]</text>
+<path class="wire" d="M965.0 200 L965.0 250" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="965.0" y="270" text-anchor="middle" font-size="14">sum[0]</text>
+<path class="wire" d="M420 155.0 L300 155.0" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#ah)"/>
+<text x="360.0" y="145.0" text-anchor="middle" font-size="14">c[3] … c[N−1]</text>
+<path class="wire" d="M650 155.0 L590 155.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="620.0" y="145.0" text-anchor="middle" font-size="14">c[2]</text>
+<path class="wire" d="M880 155.0 L820 155.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="850.0" y="145.0" text-anchor="middle" font-size="14">c[1]</text>
+<path class="wire" d="M1100 155.0 L1050 155.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1106" y="160.0" text-anchor="start" font-size="14">cin</text>
+<path class="wire" d="M130 155.0 L80 155.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="74" y="160.0" text-anchor="end" font-size="14">cout</text>
+</svg>

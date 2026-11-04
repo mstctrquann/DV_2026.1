@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1210" height="440" viewBox="0 0 1210 440" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#222"/></marker></defs>
+<rect x="0" y="0" width="1210" height="440" fill="#ffffff"/>
+<rect class="blk" x="150" y="100" width="240" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="270.0" y="131.0" text-anchor="middle" font-size="15" font-weight="bold">Khối K−1: 2 × RCA4</text>
+<text x="270.0" y="150.0" text-anchor="middle" font-size="14">ci = 0 → s0, co0</text>
+<text x="270.0" y="169.0" text-anchor="middle" font-size="14">ci = 1 → s1, co1</text>
+<rect class="blk" x="560" y="100" width="240" height="90" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="680.0" y="131.0" text-anchor="middle" font-size="15" font-weight="bold">Khối 1: 2 × RCA4</text>
+<text x="680.0" y="150.0" text-anchor="middle" font-size="14">ci = 0 → s0, co0</text>
+<text x="680.0" y="169.0" text-anchor="middle" font-size="14">ci = 1 → s1, co1</text>
+<rect class="blk" x="150" y="260" width="240" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="270.0" y="295.5" text-anchor="middle" font-size="15" font-weight="bold">MUX 2:1, 5 bit</text>
+<text x="270.0" y="314.5" text-anchor="middle" font-size="14">c[K−1] = 1 → s1, co1</text>
+<rect class="blk" x="560" y="260" width="240" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="680.0" y="295.5" text-anchor="middle" font-size="15" font-weight="bold">MUX 2:1, 5 bit</text>
+<text x="680.0" y="314.5" text-anchor="middle" font-size="14">c[1] = 1 → s1, co1</text>
+<rect class="blk" x="900" y="260" width="200" height="80" rx="4" fill="#eef4fb" stroke="#1f6fb2" stroke-width="2"/>
+<text x="1000.0" y="295.5" text-anchor="middle" font-size="15" font-weight="bold">Khối 0: RCA4</text>
+<text x="1000.0" y="314.5" text-anchor="middle" font-size="14">ci = cin, 4 FA</text>
+<path class="wire" d="M270.0 50 L270.0 100" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="270.0" y="40" text-anchor="middle" font-size="14">a, b [N−1:N−4]</text>
+<path class="wire" d="M680.0 50 L680.0 100" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="680.0" y="40" text-anchor="middle" font-size="14">a, b [7:4]</text>
+<path class="wire" d="M1000.0 50 L1000.0 260" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1000.0" y="40" text-anchor="middle" font-size="14">a, b [3:0]</text>
+<path class="wire" d="M270.0 190 L270.0 260" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="278.0" y="230" text-anchor="start" font-size="14">s0, co0, s1, co1</text>
+<path class="wire" d="M680.0 190 L680.0 260" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="688.0" y="230" text-anchor="start" font-size="14">s0, co0, s1, co1</text>
+<path class="wire" d="M270.0 340 L270.0 390" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="270.0" y="410" text-anchor="middle" font-size="14">sum[N−1:N−4]</text>
+<path class="wire" d="M680.0 340 L680.0 390" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="680.0" y="410" text-anchor="middle" font-size="14">sum[7:4]</text>
+<path class="wire" d="M1000.0 340 L1000.0 390" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1000.0" y="410" text-anchor="middle" font-size="14">sum[3:0]</text>
+<path class="wire" d="M900 300.0 L800 300.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="850" y="290" text-anchor="middle" font-size="14">c[1]</text>
+<path class="wire" d="M560 300.0 L390 300.0" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#ah)"/>
+<text x="475" y="290" text-anchor="middle" font-size="14">c[2] … c[K−1]</text>
+<path class="wire" d="M150 300.0 L90 300" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="82" y="305" text-anchor="end" font-size="14">cout</text>
+<path class="wire" d="M1160 300 L1100 300.0" fill="none" stroke="#222" stroke-width="2" marker-end="url(#ah)"/>
+<text x="1166" y="305" text-anchor="start" font-size="14">cin</text>
+</svg>
